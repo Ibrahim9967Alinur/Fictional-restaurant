@@ -1,0 +1,135 @@
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+ body{
+  background-color: #f7f7f7;
+  background-image: url(/assets/white-gradient-abstract-curve-pattern-free-photo.jpeg);
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+  
+ }
+ header{
+  background-color: #a83939;
+  position: sticky;
+  box-shadow: 0, 2px, 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  top: 0;
+  padding: 0 2rem;
+ }
+ .container-hero{
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-content:center;
+  padding: 1rem 0;
+ }
+ .logo{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #000;
+  text-decoration: none;
+  font-size: 2.3rem;
+  font-weight: 900;
+ }
+ .highlight{
+  color: #a20fbf;
+ }
+ .nav-links{
+    display: flex;
+    justify-content: space-between;
+    gap: 22px;
+    list-style: none;
+    text-decoration: none;
+    cursor: pointer;
+ }
+ .nav-links a:hover{
+    color: #f1a611;
+ } 
+ .hero{
+    padding: 20px;
+ }
+ h2{
+    display: flex;
+    justify-content: center;
+    color: rgb(10, 209, 86);
+    font-weight: 500;
+ }
+h3{
+    display: flex;
+    justify-content: center;
+}
+.highlight2{
+    color: #be8618;
+}
+.menu{
+    padding: 20px;
+}
+.image{
+    border: 2px solid red;
+    width: 100%;
+}
+.tittle{
+    display: flex;
+    justify-content: center;
+
+}
+.heading{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    word-spacing: 5px;
+    font-style: italic;
+    font-size: xx-large;
+    padding: 2px,2px,7px,2px;
+    border: 2px solid #434343;
+}
+.image-description{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    word-spacing: 2px;
+}
+.price{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #3611f1;
+    font-weight: bolder;
+    text-align: center;
+    font-size: x-large;
+}
+.our-story{
+    background-color: #39a88e;
+    word-spacing: 2px;
+}
+.contact-content{
+    justify-items: center;
+    font-family: sans-serif;
+}
+footer {
+  background-color: #205d99;
+  padding: 1rem;
+  text-align: center;
+  border-top: 1px solid #740e9ca1;
+}
+.btn{
+    display: inline-block;
+    padding: 12px 30px;
+    border-radius: 20px;
+    background-color: #f1a611;
+    border-color: #a20fbf;
+    cursor: pointer;
+}
+.btn:hover{
+    color: #a20fbf;
+}
+@media (max-width: 768px) {
+            .nav-links {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                width: 100%;
+                background: white;
+                flex-direction: column;
+                padding: 1rem;
+                box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            }
